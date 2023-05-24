@@ -1,0 +1,12 @@
+// Import Semantic UI variables
+@import "~semantic-ui-sass/semantic-ui-variables";
+
+// Override default variables as needed
+$primary-color: #007aff; // Replace with your desired primary color
+$color-primary: #a61f69;
+
+// Export updated variables
+:export {
+  primary-color: $primary-color;
+  color-primary: $color-primary;
+}
